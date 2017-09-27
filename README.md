@@ -6,7 +6,7 @@ This is a simple app created using React that saves a todo list.
 - TodoList component
 - TodoForm component
 
-### Usage
+### Usagegit
 
 ```
 $ npm start

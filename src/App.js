@@ -56,7 +56,7 @@ addNewTodo(todo){
     return (
       <div>
       <h2>Search</h2>
-					<input onChange={(event) => this.search(event)}/>
+					<input placeholder="Search..." onChange={(event) => this.search(event)}/>
 
         	<h1>My Todos</h1>
        	<TodoForm addNewTodoFunc={this.addNewTodo.bind(this)} />

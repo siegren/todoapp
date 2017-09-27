@@ -1,11 +1,9 @@
-# Counter App
+# Todo List App
 
- This app uses React to do a simple demo of components, props and state.
 
 ### Features
-- Welcome component
-- Today component
-- Counter component
+- TodoList component
+- TodoForm component
 
 ### Usage
 

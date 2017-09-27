@@ -7,15 +7,17 @@ class TodoForm extends Component{
 		this.state = {
 			text: ''
 		}
+
 	}
 
 	addTodo(){
-		console.log('working');
+		this.props.addNewTodoFunc(this.state.text);
+		this.setState({text: ''});
 	}
 
 	updateText(event){
-		console.log('working');
-		console.log(event.target.value);
+		// console.log('working');
+		// console.log(event.target.value);
 		this.setState({text: event.target.value});
 	}
 

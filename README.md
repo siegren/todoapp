@@ -1,12 +1,12 @@
 # Todo List App
 
-This is a simple app created using React that saves a todo list.
+This is a simple app created using React that saves todo list.
 
 ### Features
-- TodoList component
-- TodoForm component
+- Add todos
+- Search todos
 
-### Usagegit
+### Usage
 
 ```
 $ npm start
